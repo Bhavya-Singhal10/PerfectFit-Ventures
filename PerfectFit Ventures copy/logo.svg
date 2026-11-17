@@ -1,0 +1,230 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 580" width="100%" height="100%" role="img" aria-labelledby="pfv-logo-title" shape-rendering="geometricPrecision">
+  <title id="pfv-logo-title">PerfectFit Ventures — Your Fit. Every Brand.</title>
+  <defs>
+    <!-- Hanger Hook & Roof Gradient (Deep Midnight Navy to Electric Cyan) -->
+    <linearGradient id="hangerGrad" x1="260" y1="60" x2="540" y2="190" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#07192B" />
+      <stop offset="58%" stop-color="#0A233C" />
+      <stop offset="85%" stop-color="#0E68C9" />
+      <stop offset="100%" stop-color="#38B6FF" />
+    </linearGradient>
+
+    <!-- Left Pillar Gradient -->
+    <linearGradient id="leftPillarGrad" x1="315" y1="175" x2="315" y2="330" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1982EC" />
+      <stop offset="45%" stop-color="#0D4B8E" />
+      <stop offset="100%" stop-color="#08223E" />
+    </linearGradient>
+
+    <!-- Right Pillar Gradient -->
+    <linearGradient id="rightPillarGrad" x1="485" y1="175" x2="485" y2="330" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1982EC" />
+      <stop offset="55%" stop-color="#0F59A8" />
+      <stop offset="100%" stop-color="#09294B" />
+    </linearGradient>
+
+    <!-- Right Half Body Scan Cyan Gradient -->
+    <linearGradient id="bodyRightGrad" x1="400" y1="130" x2="438" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1A8CFF" />
+      <stop offset="50%" stop-color="#1CB0FF" />
+      <stop offset="100%" stop-color="#0D84E8" />
+    </linearGradient>
+
+    <!-- "Fit" Wordmark Vector Path Gradient -->
+    <linearGradient id="fitTextGrad" x1="538" y1="366" x2="672" y2="454" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#29B2FF" />
+      <stop offset="50%" stop-color="#0080FF" />
+      <stop offset="100%" stop-color="#005ED1" />
+    </linearGradient>
+
+    <!-- Platform Ring Gradient -->
+    <linearGradient id="ringGrad" x1="325" y1="335" x2="475" y2="335" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#69C4FF" />
+      <stop offset="50%" stop-color="#2997FF" />
+      <stop offset="100%" stop-color="#1877F2" />
+    </linearGradient>
+
+    <!-- Clip paths for left and right body halves -->
+    <clipPath id="leftHalfClip">
+      <rect x="330" y="120" width="69.5" height="230" />
+    </clipPath>
+    <clipPath id="rightHalfClip">
+      <rect x="400.5" y="120" width="70" height="230" />
+    </clipPath>
+
+    <!-- Reusable Human Silhouette Path (Centered at X=400) -->
+    <path id="humanSilhouette" d="
+      M 400,130
+      C 407,130 411,135 411,143
+      C 411,150 408,155 406,158
+      C 406,162 407,165 411,167
+      C 418,170 427,171 430,178
+      C 433,185 434,202 435,216
+      C 436,228 436,240 434,247
+      C 432,251 429,249 429,244
+      C 429,235 429,224 428,213
+      C 427,201 426,192 424,187
+      C 423,195 420,206 420,214
+      C 420,223 424,233 424,245
+      C 424,257 420,275 419,294
+      C 418,310 417,324 416,332
+      C 419,336 422,338 421,341
+      C 420,343 413,343 409,342
+      C 406,341 405,338 405,333
+      L 403,260
+      L 400,260
+      L 397,260
+      L 395,333
+      C 395,338 394,341 391,342
+      C 387,343 380,343 379,341
+      C 378,338 381,336 384,332
+      C 383,324 382,310 381,294
+      C 380,275 376,257 376,245
+      C 376,233 380,223 380,214
+      C 380,206 377,195 376,187
+      C 374,192 373,201 372,213
+      C 371,224 371,235 371,244
+      C 371,249 368,251 366,247
+      C 364,240 364,228 365,216
+      C 366,202 367,185 370,178
+      C 373,171 382,170 389,167
+      C 393,165 394,162 394,158
+      C 392,155 389,150 389,143
+      C 389,135 393,130 400,130
+      Z" />
+  </defs>
+
+  <!-- 1. HANGER HOOK & ROOF (RIGHT SIDE) -->
+  <path d="
+    M 378,66
+    C 379,51 391,42 405,42
+    C 420,42 431,52 431,66
+    C 431,77 424,84 414,89
+    C 407,93 404,96 404,102
+    L 404,106
+    L 491,157
+    C 500,162 502,171 495,176
+  " fill="none" stroke="url(#hangerGrad)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- HANGER ROOF (LEFT SHOULDER) -->
+  <path d="
+    M 382,110
+    L 309,154
+    C 300,160 299,170 306,175
+  " fill="none" stroke="#081C30" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- 2. BOOTH SIDE PILLARS -->
+  <path d="M 314,168 L 331,182 L 331,316 L 314,330 Z" fill="url(#leftPillarGrad)" />
+  <path d="M 486,168 L 469,182 L 469,316 L 486,330 Z" fill="url(#rightPillarGrad)" />
+
+  <!-- 3. VERTICAL SENSOR DASH LINES -->
+  <g stroke="#294866" stroke-width="3.5" stroke-linecap="round" stroke-dasharray="11 12">
+    <line x1="347" y1="166" x2="347" y2="296" />
+  </g>
+  <g stroke="#1E74C9" stroke-width="3.5" stroke-linecap="round" stroke-dasharray="11 12">
+    <line x1="453" y1="166" x2="453" y2="296" />
+  </g>
+
+  <!-- 4. FOOT POSITIONING PLATFORM RING -->
+  <ellipse cx="400" cy="338" rx="68" ry="14" fill="none" stroke="url(#ringGrad)" stroke-width="6" opacity="0.9" />
+  <ellipse cx="400" cy="338" rx="52" ry="9" fill="none" stroke="#BCE3FF" stroke-width="1.5" opacity="0.7" />
+
+  <!-- 5. BACK HALVES OF 3D SCAN RINGS -->
+  <g fill="none" stroke="#9AD6FF" stroke-width="2.5" opacity="0.55">
+    <path d="M 360,188 A 40,6 0 0,1 440,188" />
+    <path d="M 366,232 A 34,5 0 0,1 434,232" />
+    <path d="M 369,262 A 31,5 0 0,1 431,262" />
+  </g>
+
+  <!-- 6. SPLIT HUMAN SILHOUETTE -->
+  <use href="#humanSilhouette" clip-path="url(#leftHalfClip)" fill="#081C30" />
+  <use href="#humanSilhouette" clip-path="url(#rightHalfClip)" fill="url(#bodyRightGrad)" />
+
+  <!-- 7. FRONT HALVES OF 3D SCAN RINGS -->
+  <g fill="none" stroke="#DDF2FF" stroke-width="3.5" stroke-linecap="round">
+    <path d="M 360,188 A 40,6 0 0,0 440,188" />
+    <path d="M 366,232 A 34,5 0 0,0 434,232" />
+    <path d="M 369,262 A 31,5 0 0,0 431,262" />
+  </g>
+
+  <!-- 8. PURE VECTOR WORDMARK: "Perfect" (Deep Navy #081C30) + "Fit" (Electric Blue Gradient) -->
+  <g id="wordmark-perfect" fill="#081C30" fill-rule="evenodd">
+    <!-- 'P' -->
+    <path d="M 132,368 H 168 C 188,368 200,378 200,395 C 200,412 188,423 168,423 H 150 V 452 H 132 Z M 150,383 V 408 H 166 C 176,408 182,403 182,395.5 C 182,388 176,383 166,383 Z" />
+    <!-- 'e' -->
+    <path d="M 239,388 C 258,388 269,401 269,421 C 269,423 269,425 268.8,426 H 224 C 225.5,435 232,440 241,440 C 248,440 253,437.5 257,433.5 L 267,443 C 260.5,450 251.5,453.5 239.5,453.5 C 219.5,453.5 207,440 207,420.5 C 207,401 219.5,388 239,388 Z M 224,414.5 H 253 C 252,406 246.5,400.5 238.5,400.5 C 231,400.5 225.5,406 224,414.5 Z" />
+    <!-- 'r' -->
+    <path d="M 280,389.5 H 296.5 V 400 C 300.5,392 308,388 317.5,388 C 318.5,388 319.5,388.1 320,388.3 V 404.5 C 318.5,404.2 316.5,404 314.5,404 C 304,404 297.5,410 297.5,421.5 V 452 H 280 Z" />
+    <!-- 'f' -->
+    <path d="M 335,389.5 H 325 V 376.5 H 335 V 373 C 335,358.5 344,350 359,350 C 363.5,350 367.5,350.8 370,352 L 367.5,365 C 365.5,364.2 363,363.8 360.5,363.8 C 355,363.8 352,366.8 352,373 V 376.5 H 366.5 V 389.5 H 352 V 452 H 335 Z" />
+    <!-- 'e' -->
+    <path d="M 404,388 C 423,388 434,401 434,421 C 434,423 434,425 433.8,426 H 389 C 390.5,435 397,440 406,440 C 413,440 418,437.5 422,433.5 L 432,443 C 425.5,450 416.5,453.5 404.5,453.5 C 384.5,453.5 372,440 372,420.5 C 372,401 384.5,388 404,388 Z M 389,414.5 H 418 C 417,406 411.5,400.5 403.5,400.5 C 396,400.5 390.5,406 389,414.5 Z" />
+    <!-- 'c' -->
+    <path d="M 474,388 C 486,388 495.5,392.5 501,400.5 L 489,410.5 C 485.5,405.5 480.5,402.5 474,402.5 C 464.5,402.5 458.5,409.5 458.5,420.8 C 458.5,432 464.5,439 474,439 C 480.5,439 485.5,436 489,431 L 501,441 C 495.5,449 486,453.5 474,453.5 C 454.5,453.5 441.5,440.5 441.5,420.8 C 441.5,401 454.5,388 474,388 Z" />
+    <!-- 't' -->
+    <path d="M 514,371 H 531 V 389.5 H 545.5 V 403 H 531 V 431 C 531,436.5 533.8,439.2 538.8,439.2 C 541.5,439.2 544,438.6 546,437.8 L 548,451 C 544.5,452.6 539.8,453.5 534.5,453.5 C 521,453.5 514,446.5 514,433 V 403 H 504.5 V 389.5 H 514 Z" />
+  </g>
+
+  <!-- "Fit" in Electric Blue Gradient (Pure Vector Paths: 'F', 'i', 't') -->
+  <g id="wordmark-fit" fill="url(#fitTextGrad)" fill-rule="evenodd">
+    <!-- 'F' -->
+    <path d="M 556,368 H 613 V 383.5 H 574.5 V 403.5 H 607.5 V 418.5 H 574.5 V 452 H 556 Z" />
+    <!-- 'i' -->
+    <circle cx="631" cy="371.5" r="9.5" />
+    <path d="M 622,389.5 H 640 V 452 H 622 Z" />
+    <!-- 't' -->
+    <path d="M 657.5,371 H 675 V 389.5 H 690 V 403 H 675 V 431 C 675,436.5 677.8,439.2 682.8,439.2 C 685.5,439.2 688,438.6 690,437.8 L 692,451 C 688.5,452.6 683.8,453.5 678.5,453.5 C 665,453.5 657.5,446.5 657.5,433 V 403 H 648 V 389.5 H 657.5 Z" />
+  </g>
+
+  <!-- 9. SUB-BRANDING: "— VENTURES —" (Pure Vector Outlines) -->
+  <line x1="150" y1="487" x2="218" y2="487" stroke="#1E354D" stroke-width="1.8" />
+  <g id="subbrand-ventures" fill="none" stroke="#0B2239" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- V -->
+    <path d="M 248,476 L 256,496 L 264,476" />
+    <!-- E -->
+    <path d="M 301,476 H 289 V 496 H 301 M 289,485.5 H 299" />
+    <!-- N -->
+    <path d="M 326,496 V 476 L 340,496 V 476" />
+    <!-- T -->
+    <path d="M 365,476 H 381 M 373,476 V 496" />
+    <!-- U -->
+    <path d="M 406,476 V 489 C 406,493.5 409,496 413.5,496 C 418,496 421,493.5 421,489 V 476" />
+    <!-- R -->
+    <path d="M 447,496 V 476 H 455.5 C 459,476 461,478 461,481.2 C 461,484.4 459,486.4 455.5,486.4 H 447 M 454.5,486.4 L 461,496" />
+    <!-- E -->
+    <path d="M 499,476 H 487 V 496 H 499 M 487,485.5 H 497" />
+    <!-- S -->
+    <path d="M 538,478.5 C 536.5,476.8 534,476 531,476 C 527,476 524.5,478 524.5,480.8 C 524.5,486.5 538.5,484.5 538.5,491 C 538.5,494.2 535.5,496.2 531,496.2 C 527.5,496.2 525,495 523.5,493" />
+  </g>
+  <line x1="582" y1="487" x2="650" y2="487" stroke="#1E354D" stroke-width="1.8" />
+
+  <!-- 10. TAGLINE: "YOUR FIT. EVERY BRAND." (Pure Vector Outlines) -->
+  <g id="tagline-vector" fill="none" stroke="#5A6B7C" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Y O U R -->
+    <path d="M 212,523 L 216.5,528.5 L 221,523 M 216.5,528.5 V 535" />
+    <ellipse cx="236" cy="529" rx="4.8" ry="6" />
+    <path d="M 252,523 V 531 C 252,533.5 253.8,535 256.5,535 C 259.2,535 261,533.5 261,531 V 523" />
+    <path d="M 273,535 V 523 H 278 C 280.2,523 281.5,524.2 281.5,526.1 C 281.5,528 280.2,529.2 278,529.2 H 273 M 277.5,529.2 L 281.5,535" />
+
+    <!-- F I T . -->
+    <path d="M 310,523 H 302 V 535 M 302,528.8 H 308.5" />
+    <path d="M 321,523 V 535" />
+    <path d="M 332,523 H 341.5 M 336.75,523 V 535" />
+    <circle cx="351.5" cy="534.5" r="0.8" fill="#5A6B7C" />
+
+    <!-- E V E R Y -->
+    <path d="M 380,523 H 372.5 V 535 H 380 M 372.5,528.8 H 378.8" />
+    <path d="M 390.5,523 L 395,535 L 399.5,523" />
+    <path d="M 417.5,523 H 410 V 535 H 417.5 M 410,528.8 H 416.2" />
+    <path d="M 429,535 V 523 H 434 C 436.2,523 437.5,524.2 437.5,526.1 C 437.5,528 436.2,529.2 434,529.2 H 429 M 433.5,529.2 L 437.5,535" />
+    <path d="M 448,523 L 452.5,528.5 L 457,523 M 452.5,528.5 V 535" />
+
+    <!-- B R A N D . -->
+    <path d="M 477,523 V 535 M 477,523 H 481.8 C 483.8,523 485,524 485,525.8 C 485,527.5 483.8,528.6 481.8,528.6 H 477 M 477,528.6 H 482.2 C 484.4,528.6 485.6,529.8 485.6,531.8 C 485.6,533.8 484.4,535 482.2,535 H 477" />
+    <path d="M 497.5,535 V 523 H 502.5 C 504.7,523 506,524.2 506,526.1 C 506,528 504.7,529.2 502.5,529.2 H 497.5 M 502,529.2 L 506,535" />
+    <path d="M 516.5,535 L 521,523 L 525.5,535 M 518,531.2 H 524" />
+    <path d="M 536.5,535 V 523 L 545,535 V 523" />
+    <path d="M 557.5,535 V 523 H 561.5 C 565,523 567.2,525.2 567.2,529 C 567.2,532.8 565,535 561.5,535 Z" />
+    <circle cx="577.5" cy="534.5" r="0.8" fill="#5A6B7C" />
+  </g>
+</svg>
